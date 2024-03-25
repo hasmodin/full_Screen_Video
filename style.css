@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-contaner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    z-index: 999;
+    position: fixed;
+}
+
+.nav-log  {
+   font-size: 2.5rem;
+   font-weight: 500;
+   cursor: pointer;
+    
+}
+
+.nav-links>a{
+    font-size: 2rem;
+    text-decoration: none;
+    margin: .8rem;
+    color: white;
+    
+}
+
+.nav-log >a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.myvideo {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.video-desc {
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 1.2rem;
+}
+
+.video-desc h1 {
+    padding: .5rem 0;
+    
+}
+
+.video-desc p {
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: .5;
+
+}
+
+.pausebtn {
+    padding: 1rem 2rem;
+    outline: 0;
+    border: 0;
+    border-radius: .5rem;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.pausebtn:hover {
+    transform: scaleX(1.2);
+    background-color: green;
+
+}
